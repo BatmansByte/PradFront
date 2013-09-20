@@ -1,0 +1,95 @@
+
+
+.logo {
+  width: 250px;
+  float: right;
+}
+
+.region {
+}
+.clearfixboth {
+    clear: both;
+}
+.region-intro {
+    width: 960px;
+    border: solid yellow thin;
+}
+.region-logo {
+   /* float:left; */
+    width:250px;
+        margin: 10px 30px 10px 10px;
+    border: thick blue solid;
+}
+ .region-banner {
+    float: right;
+    width: 650px;
+
+    border: thick blue solid;
+}
+.region-messages {
+    clear:both;
+}
+.region-sidebar-cats {
+    width: 200px;
+    float: left;
+    background-color: bisque
+}
+.region-sidebar-cats {
+    background-color: red;
+    margin: 5px;
+    padding: 5px;
+    width: 260px;
+}
+.cats {
+    background-color: burlywood;
+    margin-left: 0px;
+}
+.subcats {
+    background-color: orange;
+    margin-left: 6px;
+}
+.subsubcats {
+    background-color: orchid;
+    margin-left: 12px;
+}
+
+.region-content {
+    width: 680px;
+    margin-left: 270px;
+    background-color: beige;
+}
+.region-services {
+    width: 200px;
+    float: left;
+    border: green 5px;
+}
+/* region-progs {
+    width: 100px;
+    float: left;
+}
+region-facs {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+region-orgs {
+    width: 50px;
+    float: right;
+}*/
+
+.region-arts {
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.region-canons {
+    width: 200px;
+    float: right;
+}
+
+h1 {
+  background: blue;
+  font-size: 14px;
+  clear: right;
+}
+h3 {
+    font-size: 9px;
+}
