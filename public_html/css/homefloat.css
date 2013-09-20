@@ -53,14 +53,15 @@
     margin-left: 12px;
 }
 
-region-content {
+.region-content {
     width: 680px;
     margin-left: 270px;
     background-color: beige;
 }
-region-services {
+.region-services {
     width: 200px;
     float: left;
+    border: green 5px;
 }
 /* region-progs {
     width: 100px;
@@ -75,11 +76,11 @@ region-orgs {
     float: right;
 }*/
 
-region-arts {
+.region-arts {
     margin-left: 220px;
     margin-right: 220px;
 }
-region-canons {
+.region-canons {
     width: 200px;
     float: right;
 }
