@@ -34,12 +34,12 @@
     float: left;
     background-color: bisque
 }
-.region-sidebar-cats {
+/* .region-sidebar-cats {
     background-color: red;
     margin: 5px;
     padding: 5px;
     width: 260px;
-}
+}*/
 .cats {
     background-color: burlywood;
     margin-left: 0px;
@@ -59,9 +59,9 @@
     background-color: beige;
 }
 .region-services {
-    width: 200px;
+    width: 400px;
     float: left;
-    border: green 5px;
+    border: blue solid 10px;
 }
 /* region-progs {
     width: 100px;
@@ -77,12 +77,14 @@ region-orgs {
 }*/
 
 .region-arts {
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 420px;
+    margin-right: 120px;
+    border: red solid 10px;
 }
 .region-canons {
-    width: 200px;
+    width: 100px;
     float: right;
+    border: green solid 10px;
 }
 
 h1 {
