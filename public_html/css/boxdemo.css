@@ -1,0 +1,79 @@
+/* 
+    Document   : boxdemo
+    Created on : Sep 27, 2013, 1:02:59 PM
+    Author     : batman
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+div.floatdemo {
+    border: solid green thin;
+    margin: 10px 300px;
+}
+.floatdemo p.ex1 {
+float: left;
+width: 100px;
+border: red solid thick;
+margin: 0px 40px 30px -40px
+}
+.floatdemo p.ex2 {
+border: blue solid thin;
+width: 100%;
+margin: 20px -420px 30px 20px;
+}
+.floatdemo p.ex3 {
+float: right;
+width: 100px;
+border: yellow solid thin;
+margin:0px 0px 30px 40px;
+}
+div.clearfixboth {
+    clear: both;
+        border: solid green thin;
+    margin: 0px;
+}
+.margnegdemo {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 3px;
+    border 3px solid green;
+    padding: 3px;
+    background-color: aquamarine;
+}
+p.ex4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*width: 350px;*/
+    margin: 2px 800px -50px 20px;
+    border: red thin solid;
+    padding: 3px;
+}
+p.ex5 {
+    position: absolute;
+    top: 0px;
+    left: 0500px;
+    width: 350px;
+    margin: 50px -400px 2px -200px;
+    border: blue thin solid;
+    padding: 3px;
+}
+p.ex6 {
+    position: absolute;
+    top: 0px;
+    left: 0700px;
+    width: 350px;
+    margin: 50px -400px 2px -200px;
+    border: yellow thin solid;
+    padding: 3px;
+}
+.bkgd {
+    background: url("/HomeDrupal/images/CanonsYellow.png") #ddd repeat-y 0px;
+    margin-top: 200px;
+    margin-left: 20px;
+    padding-left: 20px;
+}

@@ -1,4 +1,7 @@
-
+body {
+    background-image: url("HomeDrupal/images/CanonsYellow.png");
+        background-repeat: repeat-x;
+}
 
 .logo {
   width: 250px;
@@ -10,9 +13,12 @@
 .clearfixboth {
     clear: both;
 }
-.region-intro {
+div.region-intro {
     width: 960px;
-    border: solid yellow thin;
+    border: solid yellow thick;
+        background-image:url("/HomeDrupal/images/ServicesRed.png");
+    background-repeat: repeat;
+    /*background-color: red;*/
 }
 .region-logo {
    /* float:left; */
@@ -20,10 +26,11 @@
         margin: 10px 30px 10px 10px;
     border: thick blue solid;
 }
- .region-banner {
+ div.region-banner {
     float: right;
     width: 650px;
-
+      background-image: url("/HomeDrupal/images/CanonsYellow.png");
+    /*background-repeat: repeat;*/
     border: thick blue solid;
 }
 .region-messages {
@@ -35,6 +42,7 @@
     background-color: bisque
 }
 .region-sidebar-cats {
+    background: url("/HomeDrupal/images/CanonsYellow.png") 0 0 no-repeat;
     background-color: red;
     margin: 5px;
     padding: 5px;
@@ -61,8 +69,20 @@
 .region-services {
     width: 200px;
     float: left;
+    background-image: url('/HomeDrupal/images/ServicesRed.png');
+    background-repeat: repeat;
+    /*background-color: red;*/
     border: green 5px;
 }
+#services {
+       width: 200px;
+    float: left;
+    background-image: url('HomeDrupal/images/ServicesRed.png');
+    background-repeat: repeat;
+    /*background-color: red;*/
+    border: green 5px;
+}
+
 /* region-progs {
     width: 100px;
     float: left;
@@ -77,12 +97,18 @@ region-orgs {
 }*/
 
 .region-arts {
+    background-image: url('HomeDrupal/images/ArticlesBlue.png');
+    background-repeat: repeat;
+    /*background-color: blue;*/
     margin-left: 220px;
     margin-right: 220px;
 }
-.region-canons {
+.regioncanons {
     width: 200px;
     float: right;
+    background-image: url("HomeDrupal/images/CanonsYellow.png");
+    background-repeat: repeat;
+    background-color: yellow;
 }
 
 h1 {
@@ -92,4 +118,9 @@ h1 {
 }
 h3 {
     font-size: 9px;
+}
+.logo {
+    background-image: url(HomeDrupal/images/CanonsYellow.png);
+    background-color: blanchedalmond;
+    background-position: left top;
 }
