@@ -17,7 +17,7 @@ div.region-intro {
     width: 960px;
     border: solid yellow thick;
         background-image:url("/HomeDrupal/images/ServicesRed.png");
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     /*background-color: red;*/
 }
 .region-logo {
